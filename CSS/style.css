@@ -337,7 +337,7 @@ html {
     gap: 2rem;
 }
 
-.contact .social-media .icon-text {
+.contact .icon-text {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -365,7 +365,7 @@ html {
     transition: transform 0.5s;
 }
 
-.contact .social-media p {
+.contact .icon-text p {
     margin-top: 0.5rem;
     font-size: 1.5rem;
     color: #0e1313;
@@ -417,7 +417,7 @@ html {
 
 .citation-text {
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: #0e1313;
     margin-top: 2rem;
 }
