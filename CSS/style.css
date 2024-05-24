@@ -318,7 +318,6 @@ html {
 /* CONTACT & FOOTER */
 .contact {
     background: #eca7a6;
-    padding: 2rem 0;
 }
 
 .contact .title {
@@ -337,14 +336,7 @@ html {
     gap: 2rem;
 }
 
-.contact .icon-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-.contact .social-media a {
+.contact .social-media>a {
     display: flex;
     background: #bde1df;
     height: 7.5rem;
@@ -365,16 +357,11 @@ html {
     transition: transform 0.5s;
 }
 
-.contact .icon-text p {
-    margin-top: 0.5rem;
-    font-size: 1.5rem;
-    color: #0e1313;
-}
-
-.contact .social-media a:hover {
+.contact .social-media>a:hover {
     box-shadow: inset .4rem .4rem .6rem -.1rem rgba(0, 0, 0, 0.2), inset -.4rem -.4rem .6rem -.1rem rgba(255, 255, 255, 0.7),
         -0.05rem -0.05rem 0rem -.1rem rgba(255, 255, 255, 1), 0.05rem 0.05rem 0rem rgba(0, 0, 0, 0.15),
         0rem 1.2rem 1.0rem -1.0rem rgba(0, 0, 0, 0.05);
+
     border: .1rem solid rgba(0, 0, 0, 0.01);
     transform: translateY(.2rem);
 }
@@ -413,13 +400,6 @@ html {
 
 .contact .social-media a:hover .fa-smile {
     color: #ffcc00;
-}
-
-.citation-text {
-    text-align: center;
-    font-size: 1.5rem;
-    color: #0e1313;
-    margin-top: 2rem;
 }
 .footer {
 	position: fixed;
