@@ -1,7 +1,7 @@
 {
-    "name": "SoundSculpt",
-    "short_name": "SoundSculpt",
-    "description": "SoundSculpt is an awesome website to play songs!",
+    "name": "GTSinger",
+    "short_name": "GTSinger",
+    "description": "GTSinger is an awesome website to play songs!",
     "start_url": ".",
     "theme_color": "#0e1313",
     "background_color": "#ffffff",
